@@ -14,9 +14,9 @@ The project involves training a CNN on the MNIST dataset for handwritten digit r
 ### Run the GUI application:
     python gui_app.py
   
-The Tkinter-based GUI will open, allowing you to draw a digit on the canvas.
-Click the "Search" button to initiate the digit recognition process.
-The predicted digit and the confidence level will be displayed on the GUI.
+- The Tkinter-based GUI will open, allowing you to draw a digit on the canvas.
+- Click the "Search" button to initiate the digit recognition process.
+- The predicted digit and the confidence level will be displayed on the GUI.
 
 ## File Descriptions
 
