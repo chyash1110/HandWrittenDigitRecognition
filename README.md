@@ -12,7 +12,7 @@ The project involves training a CNN on the MNIST dataset for handwritten digit r
 ### Run the train_model.py script to train the CNN and save the model:
     train_model.py
 ### Run the GUI application:
-    python gui_app.py
+    python gui.py
   
 - The Tkinter-based GUI will open, allowing you to draw a digit on the canvas.
 - Click the "Search" button to initiate the digit recognition process.
