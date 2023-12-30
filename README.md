@@ -1,33 +1,48 @@
-# Handwritten Digit Recognition using Convolutional Neural Network
+# Handwritten Digit Recognition
 
-This repository contains a simple application for handwritten digit recognition using a Convolutional Neural Network (CNN) implemented in Keras with a Tkinter-based GUI for user interaction.
+This project implements a handwritten digit recognition system using a Convolutional Neural Network (CNN) trained on the MNIST dataset. It includes a graphical user interface (GUI) for drawing digits and recognizing them using the trained model.
 
-## Project Overview
+## Getting Started
 
-The project involves training a CNN on the MNIST dataset for handwritten digit recognition. The trained model is then saved and integrated into a Tkinter-based GUI application. Users can draw a digit on the canvas, and the application will predict the drawn digit using the trained model.
+These instructions will help you set up and run the project on your local machine.
 
+### Prerequisites
+
+Make sure you have the following installed:
+- Python (version 3.x)
+- TensorFlow
+- OpenCV
+- NumPy
+- PIL (Pillow)
+- Tkinter (for GUI)
+
+You can install the required Python packages using the following command:
+- pip install tensorflow opencv-python numpy Pillow
+
+### Running the Project
+
+#### Clone the repository:
+- git clone https://github.com/chyash1110/HandWrittenDigitRecognition.git
+
+#### Change to the project directory:
+- cd HandWrittenDigitRecognition
+
+#### Run the GUI application:
+- python gui.py
 
 ## Usage
 
-### Run the train_model.py script to train the CNN and save the model:
-    train_model.py
-### Run the GUI application:
-    python gui.py
-  
-- The Tkinter-based GUI will open, allowing you to draw a digit on the canvas.
-- Click the "Search" button to initiate the digit recognition process.
-- The predicted digit and the confidence level will be displayed on the GUI.
+- Use the GUI to draw a digit.
+- Click the "Recognize Digit" button to process the drawn digit.
+- The recognized digit and confidence percentage will be displayed on the image.
 
-## File Descriptions
+## Model Training
 
-### train_model.py:
-- Python script to load the MNIST dataset, train the CNN model, and save the trained model as mnist.h5.
+The pre-trained model is included in the repository (mnist_model.h5). If you want to retrain the model, you can use the provided Jupyter Notebook (train_model.py).
 
-### gui_app.py: 
-- Tkinter-based GUI application for handwritten digit recognition using the trained model.
-  
-### mnist.h5:
-- Pre-trained CNN model for handwritten digit recognition.
+## Acknowledgments
 
-## Contributing
-Feel free to contribute to the project by opening issues or submitting pull requests. Your feedback and suggestions are welcome!
+- The MNIST dataset is used for training and evaluation.
+- The CNN architecture is inspired by the LeNet-5 model.
+
+### Feel free to contribute, report issues, or suggest improvements!
