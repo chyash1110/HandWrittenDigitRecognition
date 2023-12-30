@@ -45,4 +45,12 @@ The pre-trained model is included in the repository (mnist_model.h5). If you wan
 - The MNIST dataset is used for training and evaluation.
 - The CNN architecture is inspired by the LeNet-5 model.
 
+## Results
+
+![image](https://github.com/chyash1110/HandWrittenDigitRecognition/assets/118417410/a6f1fdd8-2260-4fae-bc9b-736f734dd4ac)
+
+![image](https://github.com/chyash1110/HandWrittenDigitRecognition/assets/118417410/bfc03d25-5947-4367-8a76-7bfae8aed802)
+
+
+
 ### Feel free to contribute, report issues, or suggest improvements!
